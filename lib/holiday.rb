@@ -71,10 +71,10 @@ puts season.to_s.capitalize + ":"
 event.each do |holiday, supplies|
 cap_holiday = holiday.to_s.split("_").each do |name|
   name.capitalize!
-end.join(' ')
-puts '  ' + cap_holiday + ": " + supplies.join(', ')
-end
-end
+    end.join(' ')
+    puts '  ' + cap_holiday + ": " + supplies.join(', ')
+    end
+  end
 end
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
