@@ -72,7 +72,7 @@ event.each do |holiday, supplies|
 cap_holiday = holiday.to_s.split("_").each do |name|
   name.capitalize!
     end.join(' ')
-    puts '  ' + cap_holiday + ": " + supplies.join(', ')
+    puts '  ' + cap_holiday + ": " + " " + supplies.join(', ')
     end
   end
 end
