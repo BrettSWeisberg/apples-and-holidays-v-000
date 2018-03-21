@@ -75,7 +75,7 @@ cap_holiday = holiday.to_s.split("_").each do |name|
     puts '  ' + cap_holiday + ": " + supplies.join(', ')
     end
   end
-end
+
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
